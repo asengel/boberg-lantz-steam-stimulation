@@ -1,0 +1,8 @@
+quantity,reference_value,unit,note
+"Steam heat, Hs",884.7,Btu/lbm,Worked example
+"Heated radius, rh",51.2,ft,Worked example
+"Hot-oil FVF, Boh",1.13,RB/STB,First production interval
+Hot-oil viscosity,1.22,cp,First production interval
+"Surface oil rate, qo",22.75,STB/D,Hand calculation
+"Reservoir oil rate, qoh",25.71,RB/D,Hand calculation
+"Heat-removal fraction, delta",0.038,-,First production interval
