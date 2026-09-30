@@ -99,7 +99,7 @@ boberg-lantz-steam-stimulation/
 Clone the repository and install the dependencies:
 
 ```bash
-git clone <your-repository-url>
+git clone <repository-url>
 cd boberg-lantz-steam-stimulation
 python -m venv .venv
 ```
