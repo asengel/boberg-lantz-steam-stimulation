@@ -1,6 +1,6 @@
 # Model formulation
 
-This repository implements a computational version of the **Boberg–Lantz cyclic steam stimulation model** used in Example 8.6 of Green and Willhite, *Enhanced Oil Recovery*, Second Edition.
+This repository implements **Boberg–Lantz cyclic steam stimulation model** used in Example 8.6 of Green and Willhite, *Enhanced Oil Recovery*, Second Edition.
 
 ## 1. Steam heat content
 
