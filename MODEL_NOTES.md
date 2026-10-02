@@ -2,8 +2,6 @@
 
 This repository implements a computational version of the **Boberg–Lantz cyclic steam stimulation model** used in Example 8.6 of Green and Willhite, *Enhanced Oil Recovery*, Second Edition.
 
-The equations are written using GitHub's fenced `math` syntax for reliable rendering.
-
 ## 1. Steam heat content
 
 The effective heat carried into the reservoir is
@@ -19,14 +17,6 @@ where:
 - `f_sd` = fraction of steam condensed in the reservoir
 - `L_vdh` = latent heat of vaporization, Btu/lbm
 - `H_wr` = water enthalpy at reservoir temperature, Btu/lbm
-
-For Example 8.6:
-
-```math
-H_s \approx 884.7
-```
-
-with units of Btu/lbm.
 
 ## 2. Heated-zone geometry
 
@@ -88,14 +78,6 @@ z
 -
 h
 ```
-
-For Example 8.6, the implementation gives approximately
-
-```math
-r_h \approx 51.21
-```
-
-with units of ft.
 
 ## 3. Dimensionless cooling
 
@@ -393,14 +375,6 @@ For each production timestep, the implementation:
 9. calculates `t_Dr` and `t_Dz`;
 10. calculates `T_Dr`, `T_Dz`, and `T_D`;
 11. calculates corrected `T_Dp` for the next timestep.
-
-## Numerical note
-
-The published Example 8.6 obtains radial dimensionless-temperature values from the Boberg–Lantz graphical solution.
-
-This repository intentionally **calculates** the radial dimensionless-temperature response rather than hard-coding values from the published table. Consequently, the first worked interval is reproduced closely, while later temperature, viscosity, and production values can differ modestly from the printed table.
-
-The implemented `T_Dr` expression is a truncated analytical approximation. Its range and accuracy should be checked before applying the code substantially outside the conditions of the validation example.
 
 ## Reference
 
