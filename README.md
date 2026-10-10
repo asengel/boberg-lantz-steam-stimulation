@@ -1,15 +1,17 @@
-# Boberg-Lantz Steam Stimulation Model in Python
+# Boberg–Lantz steam stimulation — Example 8.6
 
-A reproducible Python implementation of the **Boberg-Lantz cyclic steam
-stimulation model** for estimating the post-steam production response of
-a heavy-oil well.
+A self-contained Jupyter notebook reproducing the Boberg–Lantz cyclic steam-stimulation worked example in Green & Willhite, *Enhanced Oil Recovery*, 2nd edition (Example 8.6, pp. 538–542).
 
-The project implements the thermal and production calculations used in
-**Example 8.6** of Green and Willhite, *Enhanced Oil Recovery*, Second
-Edition.
+**[Open the worked-example notebook](notebooks/boberg_lantz_example_8_6.ipynb)**
+
+The notebook includes textbook inputs, model equations, the entire Python implementation, heated-zone calculations, production-response plots, published-reference checkpoints and a timestep-sensitivity illustration.
+
+## Published-reference comparison
+
+The file [`validation/selected_benchmarks.csv`](validation/selected_benchmarks.csv) contains selected textbook values.
+
+The figures displayed in the notebook come from the model implementation.
 
 ## Reference
 
-Green, Don W., and G. Paul Willhite. **Enhanced Oil Recovery. Second
-Edition.** Example 8.6, *Estimation of Steam Stimulation Response With
-Boberg and Lantz Model*, pp. 538-542.
+Green, D. W., and Willhite, G. P., *Enhanced Oil Recovery*, 2nd ed., Example 8.6, pp. 538–542.
